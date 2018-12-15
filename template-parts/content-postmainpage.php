@@ -11,8 +11,7 @@
 ?>
 
 
-
-<div class="col-md-6" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<div class="col-md-6 post-blog-page" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
  <div class="vk-recent-blog">
 		 <div class="vk-img-frame">
 				 <a href="<?php the_permalink(); ?>" class="vk-img postmainpage_img">

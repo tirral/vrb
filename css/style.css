@@ -1439,6 +1439,18 @@ a {
     color: #2E3841 !important;
     background-color: transparent !important; }
 
+.post-blog-page{
+  margin-bottom: 40px;
+}
+  @media (max-width: 480px) {
+    .post-blog-page{
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+
+
+
 .vk-recent-blog {
   position: relative;
   padding-top: 160px; }

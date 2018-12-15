@@ -11,10 +11,10 @@ vrb_breadcrumb_template();
 <div class="vk-blog-wrapper">
 	<!-- BEGIN BLOG WRPPER -->
 <div class="container">
-		<div class="row single-blog vk-space x-large">
-		<div class="col-md-9">
+		<div class="row single-blog vk-space x-large clearfix">
+		<div class="col-md-9 clearfix">
       <div class="container-fluid">
-         <div class="row grid">
+         <div class="row">
                 <?php
               $current_page = (get_query_var('paged')) ? get_query_var('paged') : 1;
               $params = array(
@@ -31,15 +31,16 @@ vrb_breadcrumb_template();
               $content = get_the_content();
               $trimmed_content = wp_trim_words( $content, 40,  '' );
 
-
               get_template_part( 'template-parts/content', 'postmainpage' );
 
               endwhile;
-              wp_pagenavi(); // функция постраничной навигации
+
              ?>
- </div>
+						  </div>
 </div>
+<?php  wp_pagenavi(); // функция постраничной навигации ?>
 </div>
+
 	<div class="col-md-3">
 		<div class="sidebar-menu">
 			<?php get_sidebar(); ?>
@@ -48,4 +49,5 @@ vrb_breadcrumb_template();
  </div> <!-- row -->
 </div><!-- container-->
 </div><!-- vk-blog-wrapper -->
+
 <?php get_footer(); ?>

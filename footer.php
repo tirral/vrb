@@ -107,8 +107,10 @@
 <div class="footer-bot">
 	<div class="container">
 			<p class="vk-text">
-					Design by <a class="vk-text-color-yellow-1" href="http://vikitheme.com">VikiTemplate</a> With <span class="vk-text-color-yellow-1">Love</span>.
-			</p>
+
+        Developed by <a class="vk-text-color-yellow-1" href="http://tirrallab.com/" target="_blank">Tirral</a> With <span class="vk-text-color-yellow-1">Love</span>.
+
+    	</p>
 
 			<p class="vk-text">
 					All Rights Reserved.
